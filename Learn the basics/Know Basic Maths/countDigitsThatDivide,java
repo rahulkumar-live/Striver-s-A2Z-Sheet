@@ -1,0 +1,19 @@
+class countDigitsThatDivide {
+    public static void main(String[] args) {
+        countDigitsThatDivide obj = new countDigitsThatDivide();
+        int n = 1012;
+        System.out.println(obj.evenlyDivides(n));
+    }
+
+    public int evenlyDivides(int n) {
+        // code here
+        int count = 0, temp = n;
+        while(temp > 0){
+            int digit = temp % 10;
+            if(digit != 0 && n % digit == 0)
+                count++;
+            temp = temp / 10;
+        }
+        return count;
+    }
+}
