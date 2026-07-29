@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "removeDuplicatesInArrayV2",
+            "request": "launch",
+            "mainClass": "removeDuplicatesInArrayV2",
+            "projectName": "Striver's A2Z Sheet_eddaa205"
+        },
+        {
+            "type": "java",
+            "name": "removeDuplicatesInArray",
+            "request": "launch",
+            "mainClass": "removeDuplicatesInArray",
+            "projectName": "Striver's A2Z Sheet_eddaa205"
+        },
+        {
+            "type": "java",
+            "name": "Segregate0and1",
+            "request": "launch",
+            "mainClass": "Segregate0and1",
+            "projectName": "Striver's A2Z Sheet_eddaa205"
+        },
+        {
+            "type": "java",
+            "name": "subarrayProductLessThanK",
+            "request": "launch",
+            "mainClass": "subarrayProductLessThanK",
+            "projectName": "Striver's A2Z Sheet_eddaa205"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
